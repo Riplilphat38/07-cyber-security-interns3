@@ -85,3 +85,16 @@ Impact: Potential MITM attacks, encryption compromise
 * Use trusted Certificate Authorities
 * Proper certificate chain configuration
 * Regular certificate validity checks.
+
+Lessons Learned
+--
+Technical Insights:
+1. Importance of regular vulnerability scanning
+2. Criticality of SSL/TLS certificate management
+3. Web server security best practices
+4. System hardening techniques
+Process Improvements:
+1. Establish regular scanning schedule
+2. Implement automated patch management
+3. Develop security baseline configurations
+4. Create incident response procedures
