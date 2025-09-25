@@ -84,4 +84,4 @@ Description: Self-signed certificates and broken trust chain
 Impact: Potential MITM attacks, encryption compromise Remediation:
 * Use trusted Certificate Authorities
 * Proper certificate chain configuration
-* Regular certificate validity checks
+* Regular certificate validity checks.
