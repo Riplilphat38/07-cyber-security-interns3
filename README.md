@@ -81,7 +81,7 @@ Scan Settings:
 Critical Findings Details
 SSL Certificate Issues
 Description: Self-signed certificates and broken trust chain
-Impact: Potential MITM attacks, encryption compromise Remediation:
+Impact: Potential MITM attacks, encryption compromise
 * Use trusted Certificate Authorities
 * Proper certificate chain configuration
 * Regular certificate validity checks.
