@@ -85,6 +85,10 @@ Impact: Potential MITM attacks, encryption compromise
 * Use trusted Certificate Authorities
 * Proper certificate chain configuration
 * Regular certificate validity checks.
+SSL fixes
+--
+sudo apt install ca-certificates
+sudo update-ca-certificates
 
 Lessons Learned
 --
