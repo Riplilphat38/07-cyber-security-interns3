@@ -52,3 +52,36 @@ In Nessus Web Interface:
 * Name: "RIPlilphat' kali lunix full Vul Scan"
 * Targets: 192.168.1.8
 * Scan Type: Advanced Scan
+  
+Scan Settings:
+--
+* Discovery: Host Discovery enabled
+* Assessment: Full and thorough
+* Report: Detailed reporting enabled
+* Schedule: Now (immediate execution)
+*  Vulnerability Assessment Report
+*Scan Date*: today
+*Target*: 192.168.1.8 (Kali Linux)
+*Scanner*: Nessus Essentials
+*Scan Status*: Completed
+
+## Executive Summary
+- Total Vulnerabilities Found: [50]
+- Critical Severity: [0]
+- High Severity: [0]
+- Medium Severity: [1]
+- Low Severity: [0]
+
+## Critical & High Vulnerabilities Identified
+
+### 1. SSL/TLS Security Issues (High Severity)
+- Description: Multiple SSL/TLS configuration weaknesses
+- Impact: Potential encryption bypass attacks
+- Remediation
+Critical Findings Details
+SSL Certificate Issues
+Description: Self-signed certificates and broken trust chain
+Impact: Potential MITM attacks, encryption compromise Remediation:
+* Use trusted Certificate Authorities
+* Proper certificate chain configuration
+* Regular certificate validity checks
